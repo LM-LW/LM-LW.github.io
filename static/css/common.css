@@ -1,0 +1,219 @@
+
+*{ 
+	margin: 0px; 
+	padding: 0px; 
+}
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	background-color: #fff; 
+	color: #fff;
+	overflow-x: hidden;
+	min-width: 1200px;
+}
+a{ 
+	text-decoration: none; 
+}
+img{
+	border: 0px; 
+}
+input textarea{
+	outline: none;
+}
+.clear:before,.clear:after{ 
+	content: '...'; 
+	display: block; 
+	width: 0px; 
+	height: 0px; 
+	overflow: hidden; 
+	clear: both; 
+}
+
+ul,ol,li,dl,dt,dd{ 
+	list-style: none; 
+}
+
+
+
+/*fonts*/
+
+
+@font-face{
+    font-family: 'pan';/*默认字体*/
+    src:url('../font/Panton.ttf');
+}
+@font-face{
+    font-family: 'pul';/*默认字体*/
+    src:url('../font/Pulsar.otf');
+}
+@font-face{
+    font-family: 'alle';/*默认字体*/
+    src:url('../font/Allegro.otf');
+}
+@font-face{
+    font-family: 'fac';/*login-logo*/
+    src:url('../font/Facon.ttf');
+}
+@font-face{
+    font-family: 'arc';/*user-center*/
+    src:url('../font/Arciform.otf');
+}
+@font-face{
+    font-family: 'art';/*user-center*/
+    src:url('../font/Arturito.ttf');
+}
+@font-face{
+    font-family: 'ast';/**/
+    src:url('../font/Astron.otf');
+}
+
+@font-face{
+    font-family: 'rab';/*nomal song*/
+    src:url('../font/Rabiola.otf');
+}
+@font-face{
+    font-family: 'han';/*nomal song*/
+    src:url('../font/Hans.ttf');
+}
+@font-face{
+    font-family: 'ban';/*nomal song*/
+    src:url('../font/bangers.ttf');
+}
+@font-face{
+    font-family: 'bil';
+    src:url('../font/Bilthers.ttf');
+}
+@font-face{
+    font-family: 'umb';
+    src:url('../font/umbasoftb.otf');
+}
+
+/*---------字体兼容----------*/
+@font-face{
+    font-family: 'syke';
+    /*src: url('../font/Syke.eot'),
+    url('../font/Syke.otf');*/
+
+    src: url('../font/Syke.eot'); 
+    src: url('../font/Syke.eot?#iefix') format('embedded-opentype'),
+         url('../font/Syke.otf')  format('truetype');
+}
+@font-face{
+    font-family: 'fon';
+
+    src: url('../font/Fonartol.eot'); 
+    src: url('../font/Fonartol.eot?#iefix') format('embedded-opentype'),
+         url('../font/Fonartol.woff') format('woff'),
+         url('../font/Fonartol.otf')  format('truetype');
+   
+}
+
+
+
+/*@font-face {
+    font-family: 'myFirstFont';
+    src: url('YourWebFontName.eot'); IE9 Compat Modes 
+    src: url('YourWebFontName.eot?#iefix') format('embedded-opentype'), IE6-IE8 
+         url('YourWebFontName.woff') format('woff'), Modern Browsers 
+         url('YourWebFontName.ttf')  format('truetype'), Safari, Android, iOS 
+         url('YourWebFontName.svg#YourWebFontName') format('svg'); Legacy iOS 
+}*/
+
+/*-------------------*/
+
+.et-wrapper {
+   background-color:rgba(48,45,55,.7);
+   border-radius:5px;
+   padding:10px 30px;
+   max-width:300px;
+   min-width:120px;
+   color:#fff;
+   z-index:999999999;
+   margin:auto;
+   position:fixed;
+   top:45%;
+   display:block;
+   text-align:center;
+   font-size:12px;
+   left:60%;
+   -webkit-transform:translate(-60%,50%);
+   -ms-transform:translate(-60%,50%);
+   -moz-transform:translate(-60%,50%);
+   -o-transform:translate(-60%,50%);
+   bottom:auto!important;
+   word-break: break-all;
+}
+
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+
+
+/*-------------fontcolor--------------------------------------------------------*/
+
+/*-------------bgcolor---------------------------------------------------------*/
+
+
+/*-------------box---------------------------------------------------------*/
+
+.cont-box{
+	width: 1200px;
+	margin: auto;
+    font-family: "syke";
+}
+
+
+
+/*-------------nav---------------------------------------------------------*/
+
+.nav-top{
+	height: 32px;
+	background-color: #1a1a1a;
+	font-family: "syke";
+	font-size: 14px;
+	line-height: 32px;
+	border-bottom: 1px solid #000;
+	position: relative;
+	z-index: 36;
+	vertical-align: middle;
+
+}
+
+
+
+.nav-top a{
+	margin: 0px 12px;
+	line-height: 32px;
+}
+
+
+
+.nav-main{
+	height: 88px;
+	background-color: #1a1a1a;
+    box-shadow: 0 2px 4px #0000003b;
+	font-family: "pul";
+	font-size: 20px;
+	line-height: 88px;
+	position: relative;
+	z-index: 32;
+}
+
+.nav-main>*{
+    font-family: "pul";
+}
+
+
+.nav-main ul li{
+	float: left;
+	padding:0 20px;
+}
+
+
+
